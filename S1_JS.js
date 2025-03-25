@@ -27,7 +27,7 @@ t1 = ['aa','aaaa','aaaaaaa','aaaaaaaaa'];
 function lengthS(t1){
     let t2 = t1[0];
   for (let i = 1; i < t1.length; i++) {
-    if (t1[i].length > t2.length) {
+    if (t1[i].length > t2[i].length) {
       t2 = t1[i];
     }
   }
